@@ -105,10 +105,4 @@ let g:pydiction_location = '/home/tifauve/.vim/libs/pydiction/complete-dict'
 
 map <F9> :NERDTree<CR>
 
-
-"Java
-"set cfu=VjdeCompletionFun
-"let g:vjde_show_paras=1
-"let g:vjde_cfu_java_para=1
-let g:vjde_lib_path = '/home/tifauve/Documents/Code/INCUBATEUR/Play_Framework/play-1.0/play.jar'
-let g:vjde_src_path="/home/tifauve/Documents/Code/INCUBATEUR/Play_Framework/play-1.0/framework/src/play"
+map <F11> :FuzzyFinderTextMate<CR>
